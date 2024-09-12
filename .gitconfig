@@ -1,0 +1,31 @@
+[user]
+  name = Timothy Reen
+  email = reentim@gmail.com
+[github]
+  user = reentim
+[core]
+  editor = vim
+[alias]
+  aa = add --all
+  amend = commit --amend --no-edit
+  ap = add --all --patch
+  ci = commit --verbose
+  co = checkout
+  di = diff
+  ds = diff --staged
+  ff = merge --ff-only
+  fix = commit --fixup
+  l  = log --oneline --decorate --graph
+  lp = log --patch
+  pf = pull --ff-only
+  squash = "!f() { git rebase -i $1~ --autosquash; }; f"
+  st = status --short --branch
+  us = reset HEAD
+[push]
+  default = current
+[init]
+  defaultBranch = main
+[remote "origin"]
+  prune = true
+[rebase]
+  autosquash = true
