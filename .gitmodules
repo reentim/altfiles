@@ -1,0 +1,3 @@
+[submodule ".vim/pack/bundle/start/vim-tmux-navigator"]
+	path = .vim/pack/bundle/start/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
